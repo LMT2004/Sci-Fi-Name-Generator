@@ -6,11 +6,16 @@
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   background: black;
   overflow: hidden;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
 }
+
 .stars {
   position: fixed;
   width: 100%;
@@ -34,9 +39,10 @@ body {
 .panel {
   position: relative;
   z-index: 1;
-  width: 420px;
-  margin: 10vh auto;
-  padding: 30px;
+  width: 100%;
+  max-width: 420px;
+  margin-top: 5vh;
+  padding: 28px;
   border-radius: 16px;
   background: rgba(10, 10, 20, 0.9);
   border: 1px solid rgba(0, 150, 255, 0.4);
@@ -45,26 +51,27 @@ body {
 }
 
 .panel h1 {
-  margin-bottom: 20px;
-  font-size: 24px;
+  margin-bottom: 22px;
+  font-size: clamp(20px, 5vw, 26px);
   letter-spacing: 1px;
   color: #7ecbff;
 }
 
 button {
+  width: 60%;
   background: linear-gradient(135deg, #0f5fff, #00d4ff);
   border: none;
-  padding: 12px 20px;
-  border-radius: 8px;
+  padding: 14px 20px;
+  border-radius: 10px;
   color: white;
-  font-size: 16px;
+  font-size: clamp(15px, 4vw, 17px);
   cursor: pointer;
   transition: 0.25s ease;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
 
 button:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
   box-shadow: 0 0 15px rgba(0, 200, 255, 0.7);
 }
 
@@ -74,7 +81,18 @@ ul {
 }
 
 li {
-  padding: 6px;
-  font-size: 18px;
+  padding: 8px;
+  font-size: clamp(16px, 4.5vw, 19px);
   color: #ffffff;
 }
+
+@media (max-width: 400px) {
+  .panel {
+    padding: 22px;
+  }
+
+  li {
+    padding: 6px;
+  }
+}
+
