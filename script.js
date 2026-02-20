@@ -5,13 +5,13 @@ const firstMid = [
   "le", "za", "re", "ta", "p", "glo", "k", "r", "t", "na", "g", "j", "cha", "dee", "wo", "sha"
 ];
 const firstLast = [
-  "zoo", "prem", "trop", "nu", "kin", "wan", "gon", "was", "oo", "gu", "in", "tra", "pho", "gre"
+  "zoo", "prem", "trop", "nu", "kin", "wan", "gon", "was", "oo", "gu", "in", "tra", "pho", "gre", "da"
 ];
 const lastStart = [
-  " Ju", " Shi", " Ken", " Da", " An", " Lu", " Ra", " Tri", " Gri", " Et", " Ug", " Qua", "Mu", "Che"
+  " Ju", " Shi", " Ken", " Da", " An", " Lu", " Ra", " Tri", " Gri", " Et", " Ug", " Qua", " Mu", " Che", " Vo"
 ];
 const lastMid = [
-  "to", "lu", "yo", "trea", "da", "th", "ca", "za", "pal", "hi", "ta", "wu", "dra", "din", "pe"
+  "to", "lu", "yo", "trea", "da", "th", "ca", "za", "pal", "hi", "ta", "wu", "dra", "din", "pe", "ti"
 ];
 const lastLast = [
   "bi", "er", "en", "l", "chi", "dra", "we", "lan", "ghan", "brun", "zork", "ul", "min", "ren", "ards", "aros", "ram", "pla", "son"
