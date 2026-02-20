@@ -1,23 +1,23 @@
 const firstStart = [
-  "Ka", "Zo", "Va", "Lu", "Re", "Ta", "Ni", "Xe", "Da", "Or", "Glu", "Du", "Lee", "Ben", "Bu", "Dra", "Ja", "Que", "Ula", "Tra", "Thi", "De", "Ele", "Ona", "Ooa", "Iqua", "Hal", "Sa", "Sula", "Thro"
+  "Ka", "Zo", "Va", "Lu", "Re", "Ta", "Mi", "Xe", "Da", "Or", "Glu", "Du", "Lee", "Ben", "Bu", "Dra", "La", "Que", "Ula", "Tra", "Thi", "De", "Ele", "Ona", "Ooa", "Iqua", "Hal", "Sa", "Sula", "Thro", "Anto"
 ];
 const firstMid = [
-  "le", "za", "re", "ta", "p", "glo", "k", "r", "t", "na", "g", "j", "cha", "dee", "wo"
+  "le", "za", "re", "ta", "p", "glo", "k", "r", "t", "na", "g", "j", "cha", "dee", "wo", "sha"
 ];
 const firstLast = [
-  "zoo", "prem", "trop", "nu", "kin", "wan", "gon", "was", "oo", "gu", "inch", "tra", "pho", "gre"
+  "zoo", "prem", "trop", "nu", "kin", "wan", "gon", "was", "oo", "gu", "in", "tra", "pho", "gre"
 ];
 const lastStart = [
-  " Ju", " Shi", " Ken", " Da", " An", " Lu", " Ra", " Tri", " Gri", " Et", " Ug", " Qua"
+  " Ju", " Shi", " Ken", " Da", " An", " Lu", " Ra", " Tri", " Gri", " Et", " Ug", " Qua", "Mu", "Che"
 ];
 const lastMid = [
-  "to", "lu", "yo", "trea", "da", "th", "ca", "za", "pal", "hi", "ta", "wu", "dra", "din"
+  "to", "lu", "yo", "trea", "da", "th", "ca", "za", "pal", "hi", "ta", "wu", "dra", "din", "pe"
 ];
 const lastLast = [
-  "bi", "er", "en", "l", "chi", "dra", "we", "lan", "ghan", "brun", "zork", "ul", "min", "ren", "ards", "aros", "ram", "pla"
+  "bi", "er", "en", "l", "chi", "dra", "we", "lan", "ghan", "brun", "zork", "ul", "min", "ren", "ards", "aros", "ram", "pla", "son"
 ];
 const title = [
-    "Captain", "Darth", "Senator", "Admiral", "Grand Admiral", "Colonel", "Jedi", "Master", "Prince", "Princess", "Jedi Master"
+    "Captain", "Darth", "Senator", "Admiral", "Grand Admiral", "Colonel", "Jedi", "Master", "Prince", "Princess", "Jedi Master", "Doctor", "Commander"
 ];
 
 function getPart(type) {
